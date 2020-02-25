@@ -243,7 +243,7 @@ a, a:hover {
 }
 
 #menu > ul > li.active.team > a, #menu > ul > li.team:hover, #menu > ul > li.team > a:hover:after {
-    background-color : #00bf73;
+    background-color : #face2f;
 }
 
 #menu > ul > li.active.client > a, #menu > ul > li.client:hover, #menu > ul > li.client > a:hover:after {
@@ -757,15 +757,15 @@ a, a:hover {
 }
 
 #team-wrapper:before {
-    border-right-color : #32d996;
+    border-right-color : #ffe175;
 }
 
 #team {
-    background          : -webkit-linear-gradient(left, #00bf73 0%, #00bf73 100%), -webkit-linear-gradient(left, #00bf73 0%, #00bf73 100%);
-    background          : -moz-linear-gradient(left, #00bf73 0%, #00bf73 100%), -moz-linear-gradient(left, #00bf73 0%, #00bf73 100%);
-    background          : -o-linear-gradient(left, #00bf73 0%, #00bf73 100%), -o-linear-gradient(left, #00bf73 0%, #00bf73 100%);
-    background          : -ms-linear-gradient(left, #00bf73 0%, #00bf73 100%), -ms-linear-gradient(left, #00bf73 0%, #00bf73 100%);
-    background          : linear-gradient(left, #00bf73 0%, #00bf73 100%), linear-gradient(left, #00bf73 0%, #00bf73 100%); /* Chrome10+,Safari5.1+ */
+    background          : -webkit-linear-gradient(left, #face2f 0%, #face2f 100%), -webkit-linear-gradient(left, #face2f 0%, #face2f 100%);
+    background          : -moz-linear-gradient(left, #face2f 0%, #face2f 100%), -moz-linear-gradient(left, #face2f 0%, #face2f 100%);
+    background          : -o-linear-gradient(left, #face2f 0%, #face2f 100%), -o-linear-gradient(left, #face2f 0%, #face2f 100%);
+    background          : -ms-linear-gradient(left, #face2f 0%, #face2f 100%), -ms-linear-gradient(left, #face2f 0%, #face2f 100%);
+    background          : linear-gradient(left, #face2f 0%, #face2f 100%), linear-gradient(left, #face2f 0%, #face2f 100%); /* Chrome10+,Safari5.1+ */
     background-position : 100px 100%, 100% 100px;
     background-repeat   : no-repeat;
 }
