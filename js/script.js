@@ -273,47 +273,6 @@ jQuery(function ($) {
 
 
     // -------------------------------------------------------------
-    // Map
-    // -------------------------------------------------------------
-
-    (function () {
-
-
-        $(document).ready(function () {
-
-            var pin = 'images/map_pin.png';
-            var latlng = new google.maps.LatLng(59.327383, 18.06747);
-            var mapOptions = {
-                zoom       : 13,
-                center     : latlng,
-                scrollwheel: false
-            };
-
-            var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
-            var marker = new google.maps.Marker({
-                position: latlng,
-                map     : map,
-                icon    : pin
-            });
-
-
-            var contentString = '<div class="map-popover-content">Sweep</div>';
-
-            var infowindow = new google.maps.InfoWindow({
-                content: contentString
-            });
-
-            google.maps.event.addListener(marker, 'click', function () {
-                infowindow.open(map, marker);
-            });
-
-
-        });
-    }());
-
-
-    // -------------------------------------------------------------
     //  Modal Window
     // -------------------------------------------------------------
 

@@ -198,7 +198,8 @@ Mobile landscape
     }
 	.contact-info li.first{width:100%;margin-bottom:10px;}
 	.contact-info li.second{width:100%;margin-bottom:10px;}
-	.contact-info li.third{width:100%;}
+    .contact-info li.third{width:100%;margin-bottom:10px;}
+    .contact-info li.fourth{width:100%;}
     .copyright {
         font-size  : 14px;
         margin-top : 8px;
