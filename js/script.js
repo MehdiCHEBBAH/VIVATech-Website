@@ -168,7 +168,7 @@ jQuery(function ($) {
             slideWidth  : 228,
             slideMargin : 0,
             pager       : false,
-            infiniteLoop: true,
+            infiniteLoop: false,
             useCSS      : false,
             controls    : false,
             easing      : 'easeOutBounce',
