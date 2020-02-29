@@ -163,12 +163,12 @@ jQuery(function ($) {
 
 
         var $portfolioSlide = $('#portfolio-items').bxSlider({
-            minSlides   : 2,
+            minSlides   : 1,
             maxSlides   : 5,
             slideWidth  : 228,
             slideMargin : 0,
             pager       : false,
-            infiniteLoop: false,
+            infiniteLoop: true,
             useCSS      : false,
             controls    : false,
             easing      : 'easeOutBounce',
@@ -247,7 +247,7 @@ jQuery(function ($) {
         var $blogListSlide = $('.blog-posts-list').bxSlider({
             mode        : 'vertical',
             slideWidth  : null,
-            minSlides   : 5,
+            minSlides   : 1,
             slideMargin : 0,
             pager       : false,
             infiniteLoop: false,
