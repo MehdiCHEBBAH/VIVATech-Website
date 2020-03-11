@@ -18,11 +18,14 @@ jQuery(function ($) {
     (function () {
 
         $('#menu-wrapper').removeClass('sticky-menu');
+        $('#menu-wrapper').addClass('hidden-space');
         $(window).on('scroll', function () {
             if ($(document).scrollTop() > 150) {
                 $('#menu-wrapper').addClass('sticky-menu');
+                $('#menu-wrapper').removeClass('hidden-space');
             } else {
                 $('#menu-wrapper').removeClass('sticky-menu');
+                $('#menu-wrapper').addClass('hidden-space');
             }
         });
 
